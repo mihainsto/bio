@@ -21,3 +21,4 @@ jobs:
         with:
           branch: gh-pages
           folder: bio-app/dist
+          token: ${{ secrets.GITHUB_TOKEN }}
